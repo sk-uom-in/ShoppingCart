@@ -15,10 +15,7 @@ The Supermarket Checkout System is a C# project designed to simulate the checkou
 - .NET SDK (version 6.0 or later recommended)
 
 ### Installation
-1. Clone the repository to your local machine:
-   ```
-   git clone git@github.com:sk-uom-in/ShoppingCart.git
-   ```
+1. Download in zip form or clone the repository to your local machine. 
 2. Navigate to the project's root directory:
    ```
    cd SupermarketCheckout
