@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketCheckout", "SupermarketCheckout\SupermarketCheckout.csproj", "{6526EDBA-005B-4772-A2F5-9B0D55F0D134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketCheckout.Tests", "SupermarketCheckout.Tests\SupermarketCheckout.Tests.csproj", "{FBB701BF-9718-40DA-B9A9-732AC98DD364}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6526EDBA-005B-4772-A2F5-9B0D55F0D134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6526EDBA-005B-4772-A2F5-9B0D55F0D134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6526EDBA-005B-4772-A2F5-9B0D55F0D134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6526EDBA-005B-4772-A2F5-9B0D55F0D134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB701BF-9718-40DA-B9A9-732AC98DD364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB701BF-9718-40DA-B9A9-732AC98DD364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB701BF-9718-40DA-B9A9-732AC98DD364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB701BF-9718-40DA-B9A9-732AC98DD364}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
