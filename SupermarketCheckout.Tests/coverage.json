@@ -1,0 +1,182 @@
+{
+  "SupermarketCheckout.dll": {
+    "/Users/shivomkhare/UomSam/ShoppingCart/SupermarketCheckout/Program.cs": {
+      "Program": {
+        "System.Void Program::Main(System.String[])": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/shivomkhare/UomSam/ShoppingCart/SupermarketCheckout/Services/SpecialOffer.cs": {
+      "SupermarketCheckout.Services.SpecialOffer": {
+        "SupermarketCheckout.Services.SpecialOfferType SupermarketCheckout.Services.SpecialOffer::get_OfferType()": {
+          "Lines": {
+            "9": 18
+          },
+          "Branches": []
+        },
+        "System.String SupermarketCheckout.Services.SpecialOffer::get_SKU()": {
+          "Lines": {
+            "10": 96
+          },
+          "Branches": []
+        },
+        "System.Int32 SupermarketCheckout.Services.SpecialOffer::get_RequiredQuantity()": {
+          "Lines": {
+            "11": 28
+          },
+          "Branches": []
+        },
+        "System.Int32 SupermarketCheckout.Services.SpecialOffer::get_DiscountQuantity()": {
+          "Lines": {
+            "12": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 SupermarketCheckout.Services.SpecialOffer::get_FixedPrice()": {
+          "Lines": {
+            "13": 18
+          },
+          "Branches": []
+        },
+        "System.Int32 SupermarketCheckout.Services.SpecialOffer::CalculateDiscount(System.Collections.Generic.IEnumerable`1<SupermarketCheckout.Models.Item>)": {
+          "Lines": {
+            "27": 10,
+            "29": 98,
+            "30": 10,
+            "32": 10,
+            "36": 10,
+            "38": 10,
+            "39": 10,
+            "40": 10,
+            "42": 0,
+            "44": 10
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 41,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            },
+            {
+              "Line": 32,
+              "Offset": 41,
+              "EndOffset": 107,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void SupermarketCheckout.Services.SpecialOffer::.ctor(SupermarketCheckout.Services.SpecialOfferType,System.String,System.Int32,System.Int32,System.Int32)": {
+          "Lines": {
+            "16": 8,
+            "17": 8,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 8,
+            "22": 8,
+            "23": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/shivomkhare/UomSam/ShoppingCart/SupermarketCheckout/Models/Basket.cs": {
+      "SupermarketCheckout.Models.Basket": {
+        "System.Void SupermarketCheckout.Models.Basket::AddItem(SupermarketCheckout.Models.Item)": {
+          "Lines": {
+            "20": 20,
+            "21": 20,
+            "22": 20
+          },
+          "Branches": []
+        },
+        "System.Void SupermarketCheckout.Models.Basket::AddSpecialOffer(SupermarketCheckout.Services.SpecialOffer)": {
+          "Lines": {
+            "26": 6,
+            "27": 6,
+            "28": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 SupermarketCheckout.Models.Basket::CalculateTotalPrice()": {
+          "Lines": {
+            "32": 4,
+            "33": 24,
+            "34": 24,
+            "35": 6,
+            "36": 6,
+            "37": 6,
+            "38": 4,
+            "39": 4
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 91,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            },
+            {
+              "Line": 34,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void SupermarketCheckout.Models.Basket::.ctor()": {
+          "Lines": {
+            "15": 4,
+            "16": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/shivomkhare/UomSam/ShoppingCart/SupermarketCheckout/Models/Item.cs": {
+      "SupermarketCheckout.Models.Item": {
+        "System.String SupermarketCheckout.Models.Item::get_SKU()": {
+          "Lines": {
+            "13": 124
+          },
+          "Branches": []
+        },
+        "System.Int32 SupermarketCheckout.Models.Item::get_Price()": {
+          "Lines": {
+            "14": 76
+          },
+          "Branches": []
+        },
+        "System.Void SupermarketCheckout.Models.Item::.ctor(System.String,System.Int32)": {
+          "Lines": {
+            "16": 35,
+            "17": 35,
+            "18": 35,
+            "19": 35,
+            "20": 35
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
